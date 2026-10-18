@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pauza: Tachograph Driving Time</title>
+<meta name="description" content="Download your tachograph driver card on your phone and see driving time left, rests and infringements.">
+<link rel="icon" href="img/icon-512.png">
+<style>
+:root{--bg:#0b1322;--panel:#13203a;--line:#22345a;--text:#e6ecf7;--muted:#9fb0cc;--accent:#4fc3ff}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text)}
+main{max-width:860px;margin:0 auto;padding:32px 16px 48px}
+header{display:flex;gap:18px;align-items:center}
+header img{width:84px;height:84px;border-radius:20px}
+h1{margin:0;font-size:2em;line-height:1.2} .tag{margin:4px 0 0;color:var(--muted)}
+h2{font-size:1.15em;margin:0 0 8px;color:var(--accent)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-top:18px}
+ul{margin:0;padding-left:20px} li{margin:3px 0}
+.shots{display:flex;gap:12px;margin-top:22px;overflow-x:auto;padding-bottom:6px}
+.shots img{height:420px;max-width:none;border-radius:14px;border:1px solid var(--line)}
+@media (max-width:600px){.shots img{height:340px}}
+a{color:var(--accent)}
+footer{margin-top:28px;color:var(--muted);font-size:.9em}
+</style>
+</head>
+<body>
+<main>
+<header>
+<img src="img/icon-512.png" alt="Pauza icon">
+<div><h1>Pauza</h1><p class="tag">Download your tachograph driver card on your phone and see driving time left, rests and infringements.</p></div>
+</header>
+
+<div class="shots">
+<img src="img/phone-overview.png" alt="Driving time left">
+<img src="img/phone-infringements.png" alt="Infringements">
+<img src="img/phone-days.png" alt="Shifts per day">
+</div>
+
+<div class="card">
+<h2>Read only, never changes your card</h2>
+<p style="margin:0">Pauza only sends read commands to the card. Every download is checked against the card's signature and the EU tachograph keys, and the original file is kept unchanged.</p>
+</div>
+
+<div class="card">
+<h2>What you see</h2>
+<ul>
+<li>Driving time left until your next break, today, this week and this fortnight</li>
+<li>When your next daily and weekly rest is due</li>
+<li>Infringements of the EU driving and rest rules (Regulation 561/2006 and the Mobility Package), graded by seriousness</li>
+<li>Shifts with exact start and end times, in your local time</li>
+<li>Hours worked per week and month, kilometres driven</li>
+<li>Your whole history: every download is added, nothing is lost</li>
+<li>Live driving times from a Bluetooth smart tachograph (Gen2v2)</li>
+<li>Excel history and Google Drive copies in two taps</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Your data stays on your phone</h2>
+<p style="margin:0">No account, no cloud, no ads, no tracking. Read the <a href="privacy/">privacy policy</a>.</p>
+</div>
+
+<div class="card">
+<h2>What you need</h2>
+<ul>
+<li>A driver card (Gen1 or Gen2 smart tachograph card)</li>
+<li>A USB smart card reader that plugs into your phone (USB-C, or with an adapter)</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Contact</h2>
+<p style="margin:0">Questions or problems: <a href="mailto:valy528@gmail.com">valy528@gmail.com</a></p>
+</div>
+
+<footer>Pauza by Piti Prazelion, Spain. Pauza is an aid for drivers and does not replace the official tachograph printout or legal advice. · <a href="privacy/">Privacy policy</a></footer>
+</main>
+</body>
+</html>
